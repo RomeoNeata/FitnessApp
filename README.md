@@ -16,7 +16,7 @@ Proiectul va ajuta oamenii sa se mentina in forma, deoarece din ce in ce mai mul
 Pincipalele functionalitati:
 
 1) Crearea de conturi
-2) Lisa cu exercitii
+2) Lista cu exercitii
 3) Adaugarea de noi exercitii si de rating celor deja existente
 4) Sistem de daily goal si notificari cand acesta nu este atins
 5) Posibilitatea de sharea progresului si de a vedea statistica altor utilizatori
