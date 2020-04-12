@@ -24,3 +24,4 @@ Pincipalele functionalitati:
 Impediemnte posibile
 
 Cunostinte limitate de Java Spring si dificultatea de a conecta utlizatorii intre ei pentru a face schimb de statistici.
+![Proiect_mds](https://user-images.githubusercontent.com/38556420/79075275-8d267f00-7cfa-11ea-8a78-a1b31009215d.jpg)
