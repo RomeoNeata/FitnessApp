@@ -1,0 +1,25 @@
+<html xmlns:th="https://www.thymeleaf.org"
+  th:replace="~{fragments/layout :: layout (~{::body},'owners')}">
+
+<body>
+
+  <h2>Exercise</h2>
+  <form th:object="${owner}" class="form-horizontal" id="add-owner-form" method="post">
+    <div class="form-group has-feedback">
+      <input
+        th:replace="~{fragments/inputField :: input ('Exercise Name', 'lastName', 'text')}" />
+      <input
+        th:replace="~{fragments/inputField :: input ('Description', 'address', 'text')}" />
+
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button
+          th:with="text=${owner['new']} ? 'Add Exercise' : 'Update Owner'"
+          class="btn btn-default" type="submit" th:text="${text}">Add
+          Exercise</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
